@@ -3,7 +3,6 @@ import 'package:poupe_pilla_v1/pages/HomePage.dart';
 import 'package:poupe_pilla_v1/pages/PageCarrinho.dart';
 import 'package:poupe_pilla_v1/pages/PageCriarConta.dart';
 import 'package:poupe_pilla_v1/pages/PageFavorito.dart';
-import 'package:poupe_pilla_v1/pages/PageInicial.dart';
 import 'package:poupe_pilla_v1/pages/PageLogin.dart';
 
 
@@ -11,7 +10,7 @@ import 'package:poupe_pilla_v1/pages/PageLogin.dart';
 
 void main(){
   runApp(MaterialApp(
-    home: PageInicial(),
+    home: PageLogin(),
     debugShowCheckedModeBanner: false,
     initialRoute: "/",
     routes: {

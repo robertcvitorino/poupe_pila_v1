@@ -25,7 +25,7 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       appBar: AppBar(
         title: Text('Poupe Pila'),
-        backgroundColor: Color(0xff015249),
+        backgroundColor: Color(0xff309E60),
         actions: <Widget>[
 
           IconButton(
@@ -55,7 +55,7 @@ class _HomePageState extends State<HomePage> {
 
 
       body: Container(
-        color: Color(0xff57bc90),
+        color: Color(0xff44DA74),
         child: telas[_indiceAtual]
       ),
 
@@ -97,17 +97,17 @@ class _HomePageState extends State<HomePage> {
           items: [
             BottomNavigationBarItem(
               title: Text('Pesquisa'),
-                backgroundColor: Color(0xff015249),
+                backgroundColor: Color(0xff309E60),
                 icon: Icon(Icons.search)
             ),
             BottomNavigationBarItem(
                 title: Text('Favorito'),
-                backgroundColor: Color(0xff015249),
+                backgroundColor: Color(0xff309E60),
                 icon: Icon(Icons.star_border)
             ),
             BottomNavigationBarItem(
                 title: Text('Carrinho'),
-                backgroundColor: Color(0xff015249),
+                backgroundColor: Color(0xff309E60),
                 icon: Icon(Icons.shopping_cart)
             ),
           ]
